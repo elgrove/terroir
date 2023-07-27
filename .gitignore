@@ -1,0 +1,13 @@
+.venv
+.idea
+.vscode
+/app/requirements.txt
+/app/.chalice/deployments
+/infra/chalice.tf.json
+/infra/deployment.zip
+/infra/layer-deployment.zip
+/infra/.terraform
+/infra/.terraform.lock.hcl
+/infra/terraform.tfstate
+/infra/terraform.tfstate.backup
+__pycache__

@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "app_name": "chalice-terraform",
+  "api_gateway_stage": "api",
+  "automatic_layer": true,
+  "lambda_functions": {
+    "api_handler": {
+      "autogen_policy": false,
+      "iam_policy_file": "policy.json"
+    }
+  },
+  "environment_variables": {
+    "TABLE_NAME": "dynamo-table"
+  }
+}
