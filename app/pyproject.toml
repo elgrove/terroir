@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "chalice-terraform"
+name = "terroir"
 version = "0.1.0"
-description = ""
+description = "An AWS pattern for rapid app development"
 authors = ["Aaron L. L."]
 readme = "README.md"
 
@@ -9,7 +9,6 @@ readme = "README.md"
 python = "^3.9"
 boto3 = "^1.28.9"
 chalice = "^1.29.0"
-
 
 [build-system]
 requires = ["poetry-core"]

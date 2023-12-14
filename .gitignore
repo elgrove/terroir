@@ -1,7 +1,7 @@
 .venv
 .idea
 .vscode
-/app/requirements.txt
+requirements.txt
 /app/.chalice/deployments
 /infra/chalice.tf.json
 /infra/deployment.zip
